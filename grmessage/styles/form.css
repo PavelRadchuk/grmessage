@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+/* Button Styles */
+button.clicked {
+    background: #257727;
+    background: -moz-linear-gradient(0deg, #59b25b 0%, #519d51 49%, #245f25 51%, #257727 100%);
+    background: -webkit-linear-gradient(0deg, #59b25b 0%,#519d51 49%,#245f25 51%,#257727 100%);
+    background: linear-gradient(180deg, #59b25b 0%,#519d51 49%,#245f25 51%,#257727 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b25b', endColorstr='#257727',GradientType=1 );
+}
+
+button#submit {
+    margin: 10px 0px;
+}
+
+/* Header Styles */
+
+h2 {
+    display: inline;
+}
+
+h2#regHeader {
+    display: inline;
+    width: max-content;
+    margin-right: 2%;
+}
+
+/* Input Styles */
+
+.form-control {
+    margin-bottom: 4%;
+}
+
+span.red {
+    display: inline;
+    color: red;
+    padding: 1em;
+}
+
+p.error {
+    position: absolute;
+    left: 100%;
+    margin-top: 0px;
+    display: block;
+    width: max-content;
+    float: right;
+    height: 38px;
+    line-height: 12px;
+}
